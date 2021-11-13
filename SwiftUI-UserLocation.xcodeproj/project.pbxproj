@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C458D4A1273FCABF009DAD01 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C458D4A0273FCABF009DAD01 /* MapViewModel.swift */; };
 		C49727C5273FBC9D00C4E6F2 /* SwiftUI_UserLocationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49727C4273FBC9D00C4E6F2 /* SwiftUI_UserLocationApp.swift */; };
 		C49727C7273FBC9D00C4E6F2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49727C6273FBC9D00C4E6F2 /* MapView.swift */; };
 		C49727C9273FBC9E00C4E6F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49727C8273FBC9E00C4E6F2 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C458D4A0273FCABF009DAD01 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		C49727C1273FBC9D00C4E6F2 /* SwiftUI-UserLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-UserLocation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49727C4273FBC9D00C4E6F2 /* SwiftUI_UserLocationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_UserLocationApp.swift; sourceTree = "<group>"; };
 		C49727C6273FBC9D00C4E6F2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				C49727C4273FBC9D00C4E6F2 /* SwiftUI_UserLocationApp.swift */,
 				C49727C6273FBC9D00C4E6F2 /* MapView.swift */,
+				C458D4A0273FCABF009DAD01 /* MapViewModel.swift */,
 				C49727C8273FBC9E00C4E6F2 /* Assets.xcassets */,
 				C49727CA273FBC9E00C4E6F2 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				C49727C7273FBC9D00C4E6F2 /* MapView.swift in Sources */,
 				C49727C5273FBC9D00C4E6F2 /* SwiftUI_UserLocationApp.swift in Sources */,
+				C458D4A1273FCABF009DAD01 /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
