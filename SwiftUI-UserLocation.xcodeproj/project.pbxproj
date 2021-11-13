@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C49727C5273FBC9D00C4E6F2 /* SwiftUI_UserLocationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49727C4273FBC9D00C4E6F2 /* SwiftUI_UserLocationApp.swift */; };
-		C49727C7273FBC9D00C4E6F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49727C6273FBC9D00C4E6F2 /* ContentView.swift */; };
+		C49727C7273FBC9D00C4E6F2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49727C6273FBC9D00C4E6F2 /* MapView.swift */; };
 		C49727C9273FBC9E00C4E6F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49727C8273FBC9E00C4E6F2 /* Assets.xcassets */; };
 		C49727CC273FBC9E00C4E6F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49727CB273FBC9E00C4E6F2 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		C49727C1273FBC9D00C4E6F2 /* SwiftUI-UserLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-UserLocation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49727C4273FBC9D00C4E6F2 /* SwiftUI_UserLocationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_UserLocationApp.swift; sourceTree = "<group>"; };
-		C49727C6273FBC9D00C4E6F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C49727C6273FBC9D00C4E6F2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		C49727C8273FBC9E00C4E6F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C49727CB273FBC9E00C4E6F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				C49727C4273FBC9D00C4E6F2 /* SwiftUI_UserLocationApp.swift */,
-				C49727C6273FBC9D00C4E6F2 /* ContentView.swift */,
+				C49727C6273FBC9D00C4E6F2 /* MapView.swift */,
 				C49727C8273FBC9E00C4E6F2 /* Assets.xcassets */,
 				C49727CA273FBC9E00C4E6F2 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C49727C7273FBC9D00C4E6F2 /* ContentView.swift in Sources */,
+				C49727C7273FBC9D00C4E6F2 /* MapView.swift in Sources */,
 				C49727C5273FBC9D00C4E6F2 /* SwiftUI_UserLocationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +271,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-UserLocation/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show it on the map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +300,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-UserLocation/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show it on the map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
